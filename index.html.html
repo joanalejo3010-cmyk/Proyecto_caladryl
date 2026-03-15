@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaTech: Análisis del Caladryl</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #d88da5;
+            --bg: #f4f7f6;
+            --white: #ffffff;
+            --accent: #3498db;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            line-height: 1.6; 
+            background-color: var(--bg); 
+            color: var(--primary);
+        }
+
+        nav {
+            background: var(--primary);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        nav a:hover { background: var(--secondary); }
+
+        .container { max-width: 1100px; margin: 20px auto; padding: 20px; }
+        
+        section { 
+            background: var(--white); 
+            padding: 40px; 
+            margin-bottom: 30px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            scroll-margin-top: 100px;
+        }
+
+        header { 
+            text-align: center; 
+            padding: 60px 20px; 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
+            background-size: cover; 
+            color: white; 
+            border-radius: 8px; 
+            margin-bottom: 20px; 
+        }
+
+        h1, h2, h3 { margin-bottom: 20px; color: var(--primary); }
+        h2 { border-left: 5px solid var(--secondary); padding-left: 15px; }
+
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 12px; text-align: left; }
+        th { background-color: #f8f8f8; }
+
+        .apa-caption { font-size: 0.8rem; color: #666; font-style: italic; margin-top: 5px; }
+        .highlight-box { background: #fff0f5; padding: 20px; border-radius: 8px; border-left: 5px solid var(--secondary); margin: 20px 0; }
+
+        footer { text-align: center; padding: 20px; color: #777; border-top: 1px solid #ddd; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#principal">Principal</a>
+        <a href="#sub1">Patología</a>
+        <a href="#sub2">Propiedades</a>
+        <a href="#sub3">Experimental</a>
+        <a href="#sub5">Fisioterapia</a>
+        <a href="#sub6">Conclusiones</a>
+        <a href="#sub7">Fuentes</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="principal">
+            <header>
+                <h1>Dermacare Lab: Caladryl</h1>
+                <p>Análisis Químico y Farmacológico del Alivio Cutáneo</p>
+            </header>
+            <h3>Integrantes:</h3>
+            <ul>
+                <li>Joan Alejandro Guerrero Ávila</li>
+                <li>Juan Esteban Ceballos Espitia</li>
+                <li>Samuel Felipe Guerrero Corredor</li>
+                <li>Santiago Vargas Alonso</li>
+                <li>Gissela Valderrama Lancheros</li>
+            </ul>
+            <p style="margin-top:20px;"><strong>Introducción:</strong> El Caladryl es una loción tópica de acción antipruriginosa y protectora. Actúa refrescando y desecando la piel, siendo altamente eficaz en el alivio de la irritación mecánica y alérgica.</p>
+        </section>
+
+        <section id="sub1">
+            <h2>Subpágina 1: Patología (Urticaria y Dermatitis)</h2>
+            <p>El Caladryl está diseñado para tratar diversas afecciones cutáneas que generan picazón (prurito) e inflamación:</p>
+            <ul>
+                <li><strong>Dermatitis por contacto:</strong> Reacciones a sustancias irritantes.</li>
+                <li><strong>Quemaduras solares:</strong> Alivio térmico y protección de la barrera cutánea.</li>
+                <li><strong>Picaduras de insectos:</strong> Acción anestésica local para reducir la respuesta inflamatoria.</li>
+                <li><strong>Sarpullidos y erupciones:</strong> Control de la humedad excesiva en la zona afectada.</li>
+            </ul>
+        </section>
+
+        <section id="sub2">
+            <h2>Subpágina 2: Propiedades Fisicoquímicas</h2>
+            <div class="highlight-box">
+                <p><strong>Composición Química (Cada 100g):</strong></p>
+                <ul>
+                    <li><strong>Difenhidramina HCl (1,0 g):</strong> Antihistamínico que bloquea los receptores de histamina.</li>
+                    <li><strong>Calamina (8,1 g):</strong> Combinación de Óxido de Zinc y Óxido Férrico con propiedades desecantes.</li>
+                </ul>
+            </div>
+            <p>Es una suspensión de fácil aplicación externa y rápida remoción al lavar con agua.</p>
+        </section>
+
+        <section id="sub3">
+            <h2>Subpágina 3: Medicamento y Proceso Experimental</h2>
+            <h3>Caracterización Estructural</h3>
+            <div style="text-align: center;">
+                <img src="caladryl.png.png" alt="Estructura Molecular" style="max-width: 100%; height: auto; border-radius: 8px;">
+                <p class="apa-caption">Figura 3. Estructura molecular del compuesto activo analizado.</p>
+            </div>
+            
+            <div class="highlight-box">
+                <p><strong>Grupos Funcionales Identificados:</strong></p>
+                <ul>
+                    <li><strong>Grupo Amino (Etilamina):</strong> Responsable de la unión a los receptores H1 para bloquear la picazón.</li>
+                    <li><strong>Átomo de Oxígeno (Éter):</strong> Conecta los anillos bencénicos con la cadena lateral, estabilizando la molécula.</li>
+                </ul>
+            </div>
+
+            <h3>Tabla de Hibridación</h3>
+             <table>
+                <tr>
+                    <th>Átomo</th>
+                    <th>Hibridación</th>
+                    <th>Forma</th>
+                    <th>Ángulo</th>
+                    <th>Clase</th>
+                </tr>
+                <tr>
+                    <td>#1 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#2 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr> 
+                <tr>
+                    <td>#3 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr> 
+                <tr>
+                    <td>#4 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#5 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#6 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#7 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#8 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#9 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#10 C</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#11 O</td>
+                    <td>sp3</td>
+                    <td>Tetraedro</td>
+                    <td>109,5°</td>
+                    <td>AB4</td>
+                </tr>
+                 <tr>
+                    <td>#12 C</td>
+                    <td>sp2</td>
+                    <td>Triagonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+                 <tr>
+                    <td>#13 N</td>
+                    <td>sp3</td>
+                    <td>Tetraedro</td>
+                    <td>109,5°</td>
+                    <td>AB4</td>
+                </tr>
+                <tr>
+                    <td>#14 C</td>
+                    <td>sp3</td>
+                    <td>Tetraedro</td>
+                    <td>109,5°</td>
+                    <td>AB4</td>
+                </tr>
+                 <tr>
+                    <td>#1' O</td>
+                    <td>sp2</td>
+                    <td>Trigonal plana</td>
+                    <td>120°</td>
+                    <td>AB3</td>
+                </tr>
+
+                </table
+        </section>
+
+        <section id="sub5">
+            <h2>Subpágina 5: Aplicación Profesional (Fisioterapia)</h2>
+            <p>Desde la <strong>fisioterapia</strong>, el manejo de este medicamento es vital cuando las afecciones dérmicas impiden el tratamiento con agentes físicos o terapia manual. Comprender su farmacocinética permite identificar contraindicaciones en pacientes con edemas o sensibilidad cutánea extrema.</p>
+        </section>
+
+        <section id="sub6">
+            <h2>Subpágina 6: Conclusiones</h2>
+            <p>El estudio permite concluir que la eficacia del Caladryl reside en su acción dual: química (antihistamínica) y física (protectora). La correcta identificación de sus grupos funcionales ayuda a entender su estabilidad y rapidez de acción sobre la piel.</p>
+        </section>
+
+        <section id="sub7">
+            <h2>Subpágina 7: Fuentes Consultadas</h2>
+            <p>1. Caladryl México. "Qué es y para qué sirve la Loción de Caladryl". Recuperado de caladrylmx.com</p>
+            <p>2. Laboratorio Elea. "Prospecto Caladryl Crema". Recuperado de elea.com</p>
+            <p>3. BOC Sciences. "Diphenhydramine Structural and Functional Analysis". Recuperado de bocsci.com</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Proyecto Universitario UMB - Facultad de Fisioterapia - 2026</p>
+    </footer>
+
+</body>
+</html>
